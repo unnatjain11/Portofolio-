@@ -529,6 +529,9 @@ nav .fa-solid {
     .contact-left,.contact-right{
         flex-basis: 100%;
     }
+    .form input, form textarea{
+        width: 80%;
+    }
     .copyright{
         font-size: 14px;
         background-size: 100%;
