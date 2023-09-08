@@ -487,14 +487,18 @@ nav .fa-solid {
         left: 25px;
         cursor: pointer;
     }
-
+    .tab-title{
+            justify-content: right;
+            font-size: medium;
+            font-weight: 400;
+    }
     .sub-titile {
         font-size: 40px;
     }
 
     .about-col1,
     .about-col2 {
-        flex-basis: 100%;
+        flex-basis: 80%;
         padding-left: 15px;
         padding-right: 10px;
         justify-content: right;
