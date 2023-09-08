@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cv.css">
+    <script src="https://kit.fontawesome.com/fa6533ee52.js" crossorigin="anonymous"></script>
+    <style>
+        .fa-facebook{
+            color: #3b5998;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <H1>Unnat's <span>Portfolio</span></H1>
+            <ul id="sidemenu">
+                <li><a href="">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PROJECTS</a></li>
+                <li><a href="#contact">HIRE ME</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="detel">
+            <h1>I'm Unnat <span>Jain</span></h1>
+            <p>This is my official portfolio to showes all
+                <br>Details and work expirins web development
+            </p>
+            <br>
+            <a href="cvpdf.html">DOWNLOAD CV </a>
+        </div>
+
+    </div>
+    <br>
+    <div class="image">
+        <img src="" class="me drop-shadow">
+    </div>
+    <!-- ------------ABOUT----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="unnat.jpeg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="Sub-titile">About <span>me</span></h1>
+                    <p>I am a passionate B.Tech CSE student with a deep fascination and hunger for Knowledge.
+                        My goal is to make a full stack Web development.
+                    </p>
+                    <div class="tab-titile">
+                        <p class="tab-link active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="Skills">
+                        <ul>
+                            <li>Understanding HTML and CSS</li>
+                            <li>Responsive web design skills</li>
+                            <li>JavaScript Basic only</li>
+                            <li>Works well in a team</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Web Development ( Front end )</li>
+                            <li><span>2021</span><BR>MS Excel and MS Word </li>
+                            <li><span>2019</span><br> MS Power Point</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>2022-Now </span><br>
+                                IKG-PTU, Kapurthala (Jalandhar) <br>B.tech (Computer Science and
+                                engineering) <br>4th Semester complete
+                            <li><span> 2020-2022</span><br>
+                                Punjab State Board of Technical Education <br>Diploma (Computer science and engineering)
+                                <br>Passed in First Division With honours
+                            <li><span>2019</span><br>
+                                S.A.V Jain Public school, Hussainpura(LDH) <br> 10th class (CBSE)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------services------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titile">My <span>Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Responsive Website</h2>
+                    <P>We involves creating and arranging elements on a website to ensure it looks appealing,functions
+                        well, and provides a good user experience.</P>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-comments"></i>
+                    <h2>Live Chat</h2>
+                    <P>Real time chatting with a customers on website not only builds customers confidence during their
+                        shopping experience, but also helps to improve your conversion ratio and creates a brand image.
+                    </P>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-users"></i>
+                    <h2>Social Media</h2>
+                    <P>Your social media presence doesn't have to end on your social profile. By making your website
+                        more social media-friendly, you are reaching more & more potential customers online & more sales
+                    </P>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lock-open"></i>
+                    <h2>24 X 7 Support</h2>
+                    <P>We considering the importance of business that we are now provides around the
+                        clock support to enhance its customer support.</P>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------portfolio---- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titile">My <span>Work</span></h1>
+            <div class="work-list">
+                <div>
+                    <img src="screenshot.jpg" width="300px" height="500px">
+                    <h2>Kalamkaar Publication
+                    <a href="https://kalamkaar-publicationmocha.vercel.app/" target="_blank" class="social-icon"><i
+                            class="fa-solid fa-up-right-from-square"></i></a></h2>
+                </div>
+                <div>
+                    <img src="" width="" height="">
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------CONTACT------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titile"> Contact <span>Us</span></h1>
+                    <P><i class="fa-solid fa-envelope"></i>unnatjain9988@gmail.com</P>
+                    <p><i class="fa-brands fa-whatsapp"></i>+91 99886-64389</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/unnat.jain.98"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/unnatjain_22/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/unnat-jain-b77998282"><i class="fa-brands fa-linkedin"></i></a><br>
+                        <a href="Unnat Jain CV signature pdf.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                </div>
+                <div class="contanct-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" required><br>
+                        <input type="email" name="email" placeholder="for eg.abc@gmail.com" required><br>
+                        <textarea name="message" rows="6" placeholder="message"></textarea><br>
+                        <button type="submit" class="btn btn2">Sumit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Jain Made with <i class="fa-solid fa-heart"></i> by Unnat jain</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-content");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }    
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+        
+    </script>
+</body>
+
+</html>
