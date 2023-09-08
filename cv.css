@@ -462,6 +462,11 @@ nav .fa-solid {
         display: block;
         font-size: 25px;
     }
+    .active-link{
+        flex-basis: 80%;
+        padding-left: 15px;
+        justify-content: right;
+    }
 
     nav ul {
         background: orange;
@@ -504,7 +509,9 @@ nav .fa-solid {
         justify-content: right;
         z-index: 1;
     }
-
+.about-col2 p{
+        font-size: 1px;
+}
     .about-col1 {
         margin-bottom: 30px;
     }
